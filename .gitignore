@@ -1,0 +1,7 @@
+# Eagle
+*.epf
+*.*#*
+
+# Gerber
+*.gpi
+*.dri
