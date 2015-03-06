@@ -1,0 +1,3397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template name="Accel 13.0 txt Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>""D%%"[,]"Ellipse","%a"[,]%s[,]%s[,]"Draw""</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>""D%%"[,]"Ellipse","%a"[,]%s[,]%s[,]"Flash""</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>""D%%"[,]"Mounting Hole","%a"[,]%s[,]%s[,]"Flash""</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>""D%%"[,]"Rectangle","%a"[,]"%b"[,]%s[,]"Flash""</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Accel 15.0 apr Ger mil Inch44AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>4.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>""D%%"[;]"Ellipse";"%a"[;]%s[;]%s[;]"Draw""</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>""D%%"[;]"Ellipse";"%a"[;]%s[;]%s[;]"Flash""</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>""D%%"[;]"Mounting Hole";"%a"[;]%s[;]%s[;]"Flash""</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>""D%%"[;]"Rectangle";"%a"[;]"%b"[;]%s[;]"Flash""</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>""D%%"[;]"Rounded Rectangle";"%a"[;]"%b"[;]%s[;]"Flash""</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="AccelPCAD x x Ger Inch Inch24AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <comment>#</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%s %% ROUND %a %s %s %s %s LINE"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s %% ROUND %a %s %s %s %s FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%s %% RECTANGLE %a %b %s %s %s FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"%s %% OVAL %a %b %s %s %s FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"%s %% THERMAL %a %s"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="AccelTango x x Ger mil Inch24AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% Ellipse %a %b %s Draw"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% Ellipse %a %b %s Flash"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% Ellipse %a %b %s Both"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% Sq Rect %a %b %s Flash"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"D%% Rd Rect %a %b %s Flash"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% Thermal %a %b %s Draw"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% Mt Hole %a %b %s Flash"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Alegro x txt Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <comment>#</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"LINE    %a  D%%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"CIRCLE  %a  D%%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"SQUARE  %a  %S  D%%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"RECTANGLE  %a  %b  %S  D%%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"FLASH %s %a D%%"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+        <variableParameters>
+            <parameter type="INCH">"INPUT-UNITS     INCHES"</parameter>
+        </variableParameters>
+    </template>
+    <template name="Ares x x Exc mil Inch24 AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Ares x x Ger mil Inch24 AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% [CIRCLE D=]%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% [SQUARE S=]%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% [SMT W=]%a[th H=]%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% [SMT W=]%a[in H=]%b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Ariadne x rep Exc mil Inch23AbsLead">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a "</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Ariadne x rep Exc mil Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a "</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Ariadne x rep Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%% %a %s LINE"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <format>"%% %a %s SQRL"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a %s RND"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"%% %a %s SQR"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%% %a %b RECT"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Ariadne x rep Ger mil Inch25AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.5</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%% %a %s LINE"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <format>"%% %a %s SQRL"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a %s RND"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"%% %a %s SQR"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%% %a %b RECT"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="ASM502 x x Exc Inch Inch24 AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <comment>Tool</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s T%% %s %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="ASM502 x x Ger Inch Inch23 AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% %s d Round %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% %s f Round %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Best x x Exc Inch Inch24 AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %s %s %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Best x x Ger Inch Inch24 AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% Round %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% Rectangle %a %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="CadPlot 214 txt Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%%[=lin]%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%%[=rc]%a[x]%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"%%[=us]%s %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="CADSolution x x Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% ROUND %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% SQUARE %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% DONUT %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% OCTAGON %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% TARGET %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% CUSTOM %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% THERMAL %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% RECTANGLE %a %s %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"D%% OBLONG %a %s %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="CadStar x usr Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <comment>#</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%%  Circle  Both     %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%%  Circle  Flashed  %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%%  Square  Both     %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"%%  Square  Flashed  %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%%  Donut   Flashed  %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%%  Annulus Flashed  %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"%%  Octagon Flashed  %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"%%  Oblong     Flashed  %a  0.0  %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"%%  Oblong     Flashed  %b  90.0  %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%%  Rectangle  Flashed  %a 0.0 %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%%  Rectangle  Flashed  %b  90.0  %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"%%  Finger     Flashed  %a 0.0 %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"%%  Finger     Flashed  %b 90.0 %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+        <variableParameters>
+            <parameter type="INCH">"Fileunits imperial"</parameter>
+            <parameter type="RELATIVE">"Coordinates absolute"</parameter>
+            <parameter type="ABSOLUTE">"COORDINATES     INCREMENTAL          "</parameter>
+            <parameter type="M">"Preceeding %d"</parameter>
+            <parameter type="N">"Succeeding %d"</parameter>
+            <parameter type="TRAILING">"Zeros trailing"</parameter>
+        </variableParameters>
+    </template>
+    <template name="CadStar x x Exc mil Inch23AbsLead">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s %% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="CadStar x x Exc mm Inch23AbsLead">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s %% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="CadStar x x Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%%  1 %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%%  2 %s %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="CadStar x x SM mm Inch32AbsTrail">
+        <configuration>SiebMeyer</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%a %s %s %s %s %s %s %%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%a %s %s %s %s %s %%"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="CAM350 x gap Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% ROUND %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% SQUARE %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% DONUT %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"D%% OCTAGON %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% TARGET %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% CUSTOM %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% THERMAL %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% RECTANGLE %a %s %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="CAM350 x rtp Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <comment>A</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%s %% ROUND %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%s %% SQUARE %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s %% DONUT %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"%s %% TARGET"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"%s %% CUSTOM"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"%s %% THERMAL"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%s %% RECTANGLE %a[x]%b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="CAMPlan x wt Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"define %%	s=1	d=%a[in]"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"define %%	s=7	w=%a[in]"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"define %%	s=3	w=%a[in]"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"define %%	s=8	w=%a[in]	h=%b[in]"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="CAMPlan x wt Ger mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"define	%%	s=1	d=%a[mm]"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"define	%%	s=7	w=%a[mm]"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"define	%%	s=3	w=%a[mm]"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"define	%%	s=8	w=%a[mm]	h=%b[mm]"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="CircuitCAM 2.0 clp Exc 0.01mm Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>0.01</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%%	Flash	Circle	%a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="CircuitCAM 2.0 clp Ger 0.01mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>0.01</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%%	Flash	Circle	%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%%	Draw	Circle	%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%%	FlashDraw	Circle	%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"%%	Flash	Square	%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <format>"%%	Draw	Square	%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%%	FlashDraw	Square	%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"%%	Flash	Finger	%a	%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%%	Flash	Rectangle	%a	%b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="ColorCAM 5.x epi Exc mm Mm32AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"Tool Nr. : %% Drilling Tool Diameter = %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="ColorCAM 5.x gpi Ger 0.01mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>0.01</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"Aperture D%% %a %S ROUND DRAW + FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"Aperture D%% %a %S ROUND DRAW"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"Aperture D%% %a %S ROUND FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <format>"Aperture D%% %a %S SQUARE DRAW"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"Aperture D%% %a %S SQUARE FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"Aperture D%% %a %b RECTANGLE FLASH"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+        <variableParameters>
+            <parameter type="INCH">"scale in inch"</parameter>
+            <parameter type="MM">"scale in mm"</parameter>
+            <parameter type="ABSOLUTE">"Ascii datas absolute"</parameter>
+            <parameter type="MN">"%d.%d digits"</parameter>
+            <parameter type="TRAILING">"use trailing zero"</parameter>
+        </variableParameters>
+    </template>
+    <template name="DDESupermax x x Exc mm Inch32AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"T%% %s DIA = %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="DDESupermax x x Ger mil Inch24AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>0.01</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% circle %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% square %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="DLPanel 4.3 psa Ger mil Inch24AbsLead">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>0.1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"* D%% %s ROTON %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"* D%% %s QUADR %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="DLPanel 4.3 txp SM mm Inch33AbsDeci">
+        <configuration>SiebMeyer</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Decimal</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Eagle 3.0 dri Exc Inch Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Eagle 3.0 dri Exc mm Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Eagle 3.0 whl Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% draw %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% round %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"D%% square %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% rectangle %a %s %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"D%% octagon %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% annulus %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"D%% oval %a %s %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Eagle 3.0 whl Ger mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% draw %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% round %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"D%% square %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% rectangle %a %s %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"D%% octagon %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% annulus %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"D%% oval %a %s %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Eagle 4.0 dri Exc mil Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Eagle 4.15 dri Exc Inch Inch24AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="EasyPC x x Exc mil Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="EasyPC x x SM mil Inch23AbsTrail">
+        <configuration>SiebMeyer</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="EasyPC x x1 Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% Round %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% Square %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="EasyPC x x2 Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%s D%% Round %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%s D%% Square %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="ECAM x gap Ger mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% ROUND %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% SQUARE %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% DONUT %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"D%% OCTAGON %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% TARGET %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% CUSTOM %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% THERMAL %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% RECTANGLE %s %a %s %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="ECAM x x Ger mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <comment>#</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %a 0 0"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>RoundedRectangle</flash>
+                <format>"%% %c %a %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="EDWin x als Ger Inch Inch44AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>4.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%%[*]  %s %a["]  %s %s  %s Line"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%%[*]  %s %a["]  %s %s  %s Rnd.Pad"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="EDWin x x Exc mm Inch44AbsLead">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>4.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%%[-]%a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="EEDesigner 2.4 xRnd Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%a[,D]%s[,]D%%"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="EEDesigner 2.4 xSqr Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%a[,D]%s[,D]%s[,]D%%"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Elsa x txt Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% %s R %a %s %s %s flash"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% %s R %a %s %s %s line"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"D%% %s Q %a %s %s %s flash"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% %s Th %a %s %s %s flash"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% %s E %b %s %a %s flash"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="EWB 512 apr Ger mil Inch24AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"0%% %a GENERAL"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="EWB x rep Exc mil Inch24AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="EWB x rep Exc mm Mm24AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="general x x Exc Inch Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="general x x Exc mil Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a "</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="general x x Exc mm Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Gerber6 x gap Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% ROUND %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% SQUARE %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% DONUT %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"D%% OCTAGON %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% TARGET %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% CUSTOM %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% THERMAL %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% RECTANGLE %a %s %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Gerber6 x inf Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"CIRCLE %a D%%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"SQUARE %a 0 D%%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"RECTANGLE %a %b %s D%%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"LINE %a D%%"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+        <variableParameters>
+            <parameter type="INCH">"OUTPUT-UNITS INCHES"</parameter>
+            <parameter type="RELATIVE">"COORDINATES ABSOLUTE"</parameter>
+            <parameter type="MN">"FORMAT %1d.%1d"</parameter>
+            <parameter type="TRAILING">"SUPPRESS-TRAIL-ZEROES NO"</parameter>
+        </variableParameters>
+    </template>
+    <template name="Graffy x x Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%% %s TRACE CIRCLE %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %s FLASH CIRCLE %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%% %s FLASH RECTANGLE_H %a %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%% %s FLASH RECTANGLE_V %a %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Hp700 x sys Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <comment>;</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"aperture  D%%  %a  R"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"aperture  D%%  %a  S"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+        <variableParameters>
+            <parameter type="INCH">"units inch"</parameter>
+            <parameter type="MM">"units mm"</parameter>
+            <parameter type="MN">"format  %1d.%1d"</parameter>
+            <parameter type="TRAILING">"omit leading zeros"</parameter>
+            <parameter type="DECIMAL">"omit trailing zeros"</parameter>
+        </variableParameters>
+    </template>
+    <template name="HPPcd 401 apt Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% %s LINIE KREIS %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% %s BLITZ KREIS %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% %s BLITZ PASSERMARKE %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% %s BLITZ RECHTECK %a[,]%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"D%% %s BLITZ OVAL %a[,]%b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Integra 3.5 txt Exc mm Mm32AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s %% (%a mm)%s %s %s"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Integra x x Exc mm Mm32AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s %%[,] %s %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Integra x x SM mm Mm23AbsTrail">
+        <configuration>SiebMeyer</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s %% (%a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="IntegraSta x app 0.083mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>0.0833333</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% 1 %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%% 3 %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="IntegraSta x txt-deu mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"#%% - rund X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"#%% - quadratisch X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"#%% - achteckig X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"#%% - rechteckig X=%a %s Y=%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"#%% - oval X=%a %s Y=%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"#%% - Passer X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"#%% - W&#xe4;rmefalle X=%a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="IntegraSta x txt-deu mm Mm32AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"#%% - rund X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"#%% - quadratisch X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"#%% - achteckig X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"#%% - rechteckig X=%a %s Y=%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"#%% - oval X=%a %s Y=%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"#%% - Passer X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"#%% - W&#xe4;rmefalle X=%a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="IntegraSta x txt-eng mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"#%% - circular X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"#%% - square X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"#%% - octagonal X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"#%% - rectangular X=%a %s Y=%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"#%% - oval X=%a %s Y=%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"#%% - Target X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"#%% - Thermal pads X=%a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="LayCAD x x Exc mm Mm32AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <StringRequired>Drill-Tool-Table for LayCAD</StringRequired>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="LayCAD x x Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <StringRequired>Aperture-Table for LayCAD</StringRequired>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% draw %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% circle %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"D%% square %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% rect %a %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"D%% oval %a %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="LAYO 4.9 ger Ger mil inch23Abs Lead">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>" D%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="LAYO 4.9 t01 SM mm mm32AbsTrail">
+        <configuration>SiebMeyer</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"Boor %% %s %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="MDS x x Exc Inch Inch24AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="MDS x x Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%s %% CIRCLE TRACE %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s %% CIRCLE FLASH %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"%s %% SQUARE FLASH %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%s %% RECTANGLE SPECIAL %a %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"%s %% SQUARE SPECIAL %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Mentor x ascA Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%s  circle trace  %a %s %s %s %s %%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s circle flash  %a %s %s %s %s %%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%s rectangle flash %a %b %s %s %%"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Mentor x ascB Ger mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%s %% circle trace  %a %s"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s %% circle flash %a %s"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%s %% rectangle flash %b %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <format>"%s %% rectangle trace %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+        <variableParameters>
+            <parameter type="INCH">"Photoplotter supports inch units "</parameter>
+            <parameter type="RELATIVE">"Photoplotter coordinate mode is absolute "</parameter>
+            <parameter type="MN">"Data format  %1d.%1d" </parameter>
+            <parameter type="TRAILING">"Trailing zeros are present "</parameter>
+        </variableParameters>
+    </template>
+    <template name="Mentor x x Exc Inch Mm33AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Mentor x x SM mm Mm33AbsTrail">
+        <configuration>SiebMeyer</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="MicroSim x ape Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <comment>%</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"*aperture drawn round %a %s %s %%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"*aperture flashed round %a %s %s %%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"*aperture flashed rectangular %a %b %s %%"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="OrCAD 9.00 dts Exc mil Inch24AbsLead">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <comment>TOOL</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="OrCAD x lst Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% Round %a %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% Square %a %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Oval</flash>
+                <format>"D%% Oblong %a %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="OrCAD x x Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%a[,] %s L, D%%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%a[,] %b[,] R, D%%"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="OrCADx x Exc Inch Inch24AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%%[C]%a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Pads 601 lst Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a %s RND"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a %s ANNL"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%% %a %s LINE"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <format>"%% %a %s SQRL"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"%% %a %s SQR"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Pads x gap Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D-%% Round %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D-%% Square %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D-%% DONUT %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"D-%% OCTAGON %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D-%% TARGET %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D-%% CUSTOM %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D-%% THERMAL %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D-%% RECTANGLE %a %s %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Pads x rep Exc mil Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Pads x rep Exc mm Inch23AbsLead">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Pads x rep Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a 1 F"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%% %a 1 D"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"%% %a 2 F"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <format>"%% %a 2 D"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Pads x rep Ger MM Inch24AbsLead">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%% %a %s LINE"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a %s RND"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%% %a %s SQRL"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%% %a %s SQR"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="PCAD x apr Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <comment>#</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%s %% ROUND %a %s %s %s %s LINE"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s %% ROUND %a %s %s %s %s FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%s %% RECTANGLE %a %b %s %s %s FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"%s %% OVAL %a %b %s %s %s FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"%s %% THERMAL %a %s"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="PCAD x txt Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%%[=cir]%a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="PCGerber x gap Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% ROUND %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% SQUARE %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% DONUT %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"D%% OCTAGON %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% TARGET %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% CUSTOM %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% THERMAL %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% RECTANGLE %a %s %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Perfag d apt Ger 0.01mil Inch24AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>0.01</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%%  circle %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%%  square %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Phoenix x sm Ger mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <comment>;</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>".LINE.= ,SMT,D%%[,]%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"%s ,SMT,D%%[,.SQUARE.,]%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s ,SMT,D%%[,.CIRCLE.,]%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"%s ,SMT,D%%[,.ISO.,]%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"%s ,SMT,D%%],.TARGET.,]%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"%s ,SMT,D%%[,.RECT.,]%a[,]%b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="PowerPADS x rep Exc mil Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a "</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="PowerPADS x rep Ger mil Inch34AbsLead">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>3.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %a 0 RND"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="PowerPCB x rep Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %a 0 RND"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %a 0 ANNL"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %a 0 LINE"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%% %a 0 SQRL"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%% %a 0 SQR"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="PowerPCB x x Exc mil Inch23AbsLead">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="PowerPCB x x Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %a %s RND"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%% %a %s SQR"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="PowerPCB x x Ger mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %a %s RND"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%% %a %s SQR"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="PowerPCBx x Exc mm Inch23AbsLead">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="ProCAD x dst Exc mil Inch 23 Abs Trail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%% %a MILS %s"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+        <variableParameters>
+            <parameter type="ABSOLUTE">"Drilling Mode : ABSOLUTE"</parameter>
+            <parameter type="TRAILING">"Trailing Zero : SUPPRESSED"</parameter>
+        </variableParameters>
+    </template>
+    <template name="Protel 4.0 drr Exc mm Inch43AbsLead">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>4.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a %s"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Protel x apt Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% CIRCULAR  %a %s %s LINE"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% CIRCULAR  %a %s %s FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% RECTANGULAR %a %b %s FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Rectangle</flash>
+                <format>"D%% RECTANGULAR %a %b %s LINE"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Rectangle</flash>
+                <format>"D%% RECTANGULAR %a %b %s MULTI"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"D%% ROUNDED %a %b %s FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% ROUNDED %a %b %s MULTI"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% RELIEF %a %b %s FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"D%% OCTAGONAL %a %b %s FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"D%% OCTAGONAL %a %b %s MULTI"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"D%% SQUARE %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% RECTANGULAR %a %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Protel x drr Exc mil Inch23AbsLead">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <comment>Total</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a[mil]"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Protel x drr Exc mm Mm43AbsLead">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>4.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Leading</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a[mm]"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Proteus x x Exc mil Inch24AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a[th]"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Proteus x x Ger Inch Inch24AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% CIRCLE D=%a[in] DRAW"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% CIRCLE D=%a[in] FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"D%% SQUARE S=%a[in] FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"D%% RECTANGLE W=%a[in] H=%b[in] FLASH"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Proteus x x Ger mil Inch24AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% CIRCLE D=%a[th] DRAW"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% CIRCLE D=%a[th] FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"D%% SQUARE S=%a[th] FLASH"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"D%% RECTANGLE W=%a[th] H=%b[th] FLASH"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Ranger 1.3 txt Exc mm mm23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% = %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Ranger 1.3 txt Ger inch inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Ranger 1.3 txt Ger Quadrat">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="RangerXL 1.42 txt Exc inch inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.4</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="RayStar x txt Ger 0.01mm Mm32AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>0.01</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"C %% %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"R %% %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"X %% %s %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Tango x rep Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% Ellipse %a %b %s Draw"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% Ellipse %a %b %s Flash"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% Ellipse %a %b %s Both"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% Sq Rect %a %b %s Flash"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"D%% Rd Rect %a %b %s Flash"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% Thermal %a %b %s Draw"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% Mt Hole %a %b %s Flash"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Target x x Exc mm Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Target x x Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% draw %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Octagon</flash>
+                <format>"D%% octagon %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% rectangle %a x %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% square %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="TopCAD x txt-deu Ger mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"#%% - rund X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"#%% - quadratisch X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"#%% - achteckig X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"#%% - rechteckig X=%a %s Y=%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"#%% - oval X=%a %s Y=%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"#%% - Passer X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"#%% - W&#xe4;rmefalle X=%a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="TopCAD x txt-eng Ger mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"#%% - circular X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"#%% - square X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Octagon</flash>
+                <format>"#%% - octagonal X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"#%% - rectangular X=%a %s Y=%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"#%% - oval X=%a %s Y=%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"#%% - Target X=%a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"#%% - Thermal pads X=%a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="TopCAD x x Exc mm Mm32AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %s %s %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %s %s %s %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="TopCAD x x SM mm Mm32AbsTrail">
+        <configuration>SiebMeyer</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %s %s %a[mm]"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="TopCAD x x1 Ger mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% %a %s %s %s Kreis"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% %a %s %s %s Quadrat"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% %a %s %s %s Passer"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% %a %s %s %s W.Falle"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"D%% %a %s %s %s Special"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="TopCAD x x2 Ger mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"#%% - rund %s %a %s"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"#%% - rechteckig %s %a %s %s%b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"#%% - Passer %s %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="TutorApe x whl Ger 0.01mm Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>0.01</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% %s  Circle %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% %s Square %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% Flash Rectangle %a %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"D%% Flash Finger %a %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="TutorApe">
+        <configuration>Gerber</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>0.01</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% %s  Circle %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D%% %s Square %a"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D%% Flash Rectangle %a %b"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"D%% Flash Finger %a %b"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="TutorTools x nct Exc mm Mm32AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="TutorTools">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>3.2</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"T%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="UltiBoard x x Exc mil Inch25AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.5</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="UltiBoard x x Exc mm Mm23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="UltiBoard x x Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <comment>D-code</comment>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="UltiBoard x x Ger mil Mm25AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>mm</coorUnits>
+        <coorMN>2.5</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D%% %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="VanGuard 5.31 opt Exc mil Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s %%[:] %s %s %s %s %a"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="VanGuard 5.31 opt Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%s %% L %a ROUND"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%s %% F %a ROUND"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"%s %% F %a SQUARE"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Special</flash>
+                <format>"%s %% F %s THERMAL RELIEF"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="VIAC x x Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"%S  %%  %a %S  Line   Round"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%S  %%  %a %S  Flash  Round"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"%S  %%  %a %S  Flash  Square"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Marker</flash>
+                <format>"%S  %%  %a %S  Flash  Thermal"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Marker</flash>
+                <format>"%S  %%  %a %S  Flash  Target"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Visula x ap Ger Inch Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>inch</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <flash>Circle</flash>
+                <format>"D-Code %% %a round"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <draw>Square</draw>
+                <flash>Square</flash>
+                <format>"D-Code %% %a square"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"D-Code %% %a %s %b rectangle"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"D-Code %% %a %s %b ellipse"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="Visula x asc Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"D%% %a round DRAW"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"D%% %a round FLASH"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="VuTrax x nib Ger mil Inch23AbsTrail">
+        <configuration>Gerber</configuration>
+        <apeUnits>mil</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <draw>Circle</draw>
+                <format>"Draw %a %s %s %s %s %s %s %s 'D%%[']"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"Circ %a %s %s %s %s %s %s %s 'D%%[']"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Square</flash>
+                <format>"Square %a %s %s %s %s %s %s %s 'D%%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Oval</flash>
+                <format>"Elong %a %b %s %s %s %s %s %s 'D%%[']"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Rectangle</flash>
+                <format>"Rect %a %b %s %s %s %s %s %s 'D%%[']"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="VuTrax x x1 Exc mm Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"CNC %s %s %s %s %s [']%a[mm] Drill' 'T%%"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+    <template name="VuTrax x x2 Exc mm Inch23AbsTrail">
+        <configuration>Excellon</configuration>
+        <apeUnits>mm</apeUnits>
+        <apeScale>1</apeScale>
+        <coorUnits>inch</coorUnits>
+        <coorMN>2.3</coorMN>
+        <coorMode>Absolute</coorMode>
+        <coorZeros>Trailing</coorZeros>
+        <ApertureDefinition>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%a mm Drill selected as t%%"</format>
+            </ApertureFormat>
+            <ApertureFormat>
+                <flash>Circle</flash>
+                <format>"%a mm Drll selected as t%%"</format>
+            </ApertureFormat>
+        </ApertureDefinition>
+    </template>
+</templates>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tools format="LPKF_Mill_Drill File (LMD)">
+    <tool name="Micro Cutter 0.1 mm (4 mil)" replace_by="Micro Cutter 0,1 mm" />
+    <tool name="Micro Cutter 0.13 mm (5.1 mil)" replace_by="" />
+    <tool name="Universal Cutter 0.2 mm (8 mil)" replace_by="Universal Cutter 0,2 mm" />
+    <tool name="Universal Cutter 0.22 mm (8.7)" replace_by="" />
+    <tool name="Universal Cutter 0.24 mm (9.4)" replace_by="" />
+    <tool name="Universal Cutter 0.2 mm marking" replace_by="Universal Cutter 0,2 mm" />
+    <tool name="End Mill (RF) 0.15 mm (6 mil)" replace_by="End Mill (RF) 0,15 mm" />
+    <tool name="End Mill (RF) 0.25 mm (10 mil)" replace_by="End Mill (RF) 0,25 mm" />
+    <tool name="End Mill (RF) 0.4 mm (16 mil)" replace_by="End Mill (RF) 0,4 mm" />
+    <tool name="End Mill 0.8 mm (31 mil)" replace_by="End Mill 0,8 mm" />
+    <tool name="End Mill 1.0 mm (39 mil)" replace_by="End Mill 1 mm" />
+    <tool name="End Mill 2.0 mm (79 mil)" replace_by="End Mill 2 mm" />
+    <tool name="End Mill 3.0 mm (118 mil)" replace_by="End Mill 3 mm" />
+    <tool name="End Mill 1.0 mm (39 mil) long" replace_by="End Mill long 1 mm" />
+    <tool name="End Mill 2.0 mm (79 mil) long" replace_by="End Mill long 2 mm" />
+    <tool name="Spiral Drill 0.2 mm" replace_by="Spiral Drill   0,2 mm" />
+    <tool name="Spiral Drill 0.3 mm" replace_by="Spiral Drill   0,3 mm" />
+    <tool name="Spiral Drill 0.4 mm" replace_by="Spiral Drill   0,4 mm" />
+    <tool name="Spiral Drill 0.5 mm" replace_by="Spiral Drill   0,5 mm" />
+    <tool name="Spiral Drill 0.6 mm" replace_by="Spiral Drill   0,6 mm" />
+    <tool name="Spiral Drill 0.7 mm" replace_by="Spiral Drill   0,7 mm" />
+    <tool name="Spiral Drill 0.8 mm" replace_by="Spiral Drill   0,8 mm" />
+    <tool name="Spiral Drill 0.9 mm" replace_by="Spiral Drill   0,9 mm" />
+    <tool name="Spiral Drill 1.0 mm" replace_by="Spiral Drill   1 mm" />
+    <tool name="Spiral Drill 1.1 mm" replace_by="Spiral Drill   1,1 mm" />
+    <tool name="Spiral Drill 1.2 mm" replace_by="Spiral Drill   1,2 mm" />
+    <tool name="Spiral Drill 1.3 mm" replace_by="Spiral Drill   1,3 mm" />
+    <tool name="Spiral Drill 1.4 mm" replace_by="Spiral Drill   1,4 mm" />
+    <tool name="Spiral Drill 1.5 mm" replace_by="Spiral Drill   1,5 mm" />
+    <tool name="Spiral Drill 1.6 mm" replace_by="Spiral Drill   1,6 mm" />
+    <tool name="Spiral Drill 1.7 mm" replace_by="Spiral Drill   1,7 mm" />
+    <tool name="Spiral Drill 1.8 mm" replace_by="Spiral Drill   1,8 mm" />
+    <tool name="Spiral Drill 1.9 mm" replace_by="Spiral Drill   1,9 mm" />
+    <tool name="Spiral Drill 2.0 mm" replace_by="Spiral Drill   2 mm" />
+    <tool name="Spiral Drill 2.1 mm" replace_by="Spiral Drill   2,1 mm" />
+    <tool name="Spiral Drill 2.2 mm" replace_by="Spiral Drill   2,2 mm" />
+    <tool name="Spiral Drill 2.3 mm" replace_by="Spiral Drill   2,3 mm" />
+    <tool name="Spiral Drill 2.4 mm" replace_by="Spiral Drill   2,4 mm" />
+    <tool name="Spiral Drill 3.0 mm" replace_by="Spiral Drill   3 mm" />
+    <tool name="Spiral Drill 3.05 mm" replace_by="" />
+    <tool name="Spiral Drill Ref 2.95 mm" replace_by="Spiral Drill   2,95 mm" />
+    <tool name="Contour Router 1.0 mm (39 mil)" replace_by="Contour Router 1 mm" />
+    <tool name="Contour Router 1.5 mm (59 mil)" replace_by="" />
+    <tool name="Contour Router 2.0 mm (79 mil)" replace_by="Contour Router 2 mm" />
+    <tool name="Contour Router 2.5 mm (98 mil)" replace_by="" />
+    <tool name="Contour Router 3.0 mm (118 mil)" replace_by="" />
+    <tool name="QuickLoad" replace_by="" />
+</tools>

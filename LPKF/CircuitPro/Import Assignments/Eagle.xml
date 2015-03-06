@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assignments>
+    <assignment system="CircuitPro">
+        <file pattern="*.TOP" format="GerberX" layer="TopLayer" aperture="TopApe" />
+        <file pattern="*.BOT" format="GerberX" layer="BottomLayer" aperture="BotApe" />
+        <file pattern="*.BOA" format="GerberX" layer="BoardOutline" aperture="BoardApe" />
+        <file pattern="*.SST" format="GerberX" layer="SilkScreenTop" aperture="SilkTopApe" />
+        <file pattern="*.SSB" format="GerberX" layer="SilkScreenBottom" aperture="SilkBotApe" />
+        <file pattern="*.SMT" format="GerberX" layer="SolderMaskTop" aperture="MaskTopApe" />
+        <file pattern="*.SMB" format="GerberX" layer="SolderMaskBottom" aperture="MaskBotApe" />
+        <file pattern="*.SPT" format="GerberX" layer="SolderPasteTop" aperture="PasteTopApe" />
+        <file pattern="*.SPB" format="GerberX" layer="SolderPasteBottom" aperture="PasteBotApe" />
+        <file pattern="*.DRD" format="Excellon" layer="DrillPlated" aperture="DrillTools" />
+    </assignment>
+</assignments>
