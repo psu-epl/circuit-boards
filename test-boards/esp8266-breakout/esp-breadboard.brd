@@ -1229,39 +1229,12 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </library>
 <library name="esp">
 <packages>
-<package name="1X04">
-<wire x1="6.985" y1="1.27" x2="8.255" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="8.255" y1="1.27" x2="8.89" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="8.89" y1="-0.635" x2="8.255" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="6.985" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="8.255" y1="-1.27" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="8.89" y1="0.635" x2="8.89" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<package name="1X04_NO_SILK">
+<pad name="1" x="0" y="0" drill="1.4986" diameter="2.286" shape="square" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.4986" diameter="2.286" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.4986" diameter="2.286" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.4986" diameter="2.286" rot="R90"/>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
@@ -1492,7 +1465,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <element name="C1" library="rcl" package="C0805" value="1u" x="6.35" y="12.446" smashed="yes" rot="R90">
 <attribute name="VALUE" x="8.89" y="11.43" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="JP1" library="esp" package="1X04" value="0" x="2.54" y="13.97" smashed="yes" rot="R270">
+<element name="JP1" library="esp" package="1X04_NO_SILK" value="0" x="2.54" y="13.97" smashed="yes" rot="R270">
 <attribute name="NAME" x="1.8288" y="18.6182" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R1" library="rcl" package="R0805" value="1k" x="7.366" y="9.144" smashed="yes">
@@ -1548,14 +1521,14 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="0.635" y1="19.685" x2="19.685" y2="19.685" width="1.27" layer="1"/>
 <wire x1="19.685" y1="19.685" x2="19.685" y2="0.635" width="1.27" layer="1"/>
 <wire x1="19.685" y1="0.635" x2="0.635" y2="0.635" width="1.27" layer="1"/>
-<wire x1="0.635" y1="0.635" x2="0.635" y2="17.78" width="1.27" layer="1"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="17.78" width="1.016" layer="1"/>
 <wire x1="0.635" y1="17.78" x2="0.635" y2="19.685" width="1.27" layer="1"/>
 <wire x1="2.54" y1="13.97" x2="2.54" y2="17.78" width="0.6096" layer="1"/>
 <wire x1="2.54" y1="17.78" x2="0.635" y2="17.78" width="0.6096" layer="1"/>
 <wire x1="0.635" y1="19.685" x2="19.685" y2="19.685" width="1.27" layer="16"/>
 <wire x1="19.685" y1="19.685" x2="19.685" y2="0.635" width="1.27" layer="16"/>
 <wire x1="19.685" y1="0.635" x2="0.635" y2="0.635" width="1.27" layer="16"/>
-<wire x1="0.635" y1="0.635" x2="0.635" y2="19.685" width="1.27" layer="16"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="19.685" width="1.016" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="RADIO" pad="2"/>
@@ -1599,28 +1572,33 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <errors>
 <approved hash="4,1,533d117e02a4e038"/>
 <approved hash="4,1,6c3d901381081c97"/>
+<approved hash="4,16,e79386ea39fcc5e2"/>
+<approved hash="4,16,30dc928854879162"/>
+<approved hash="4,16,6c3d901381081c97"/>
 <approved hash="4,1,c67506b142b53310"/>
 <approved hash="4,1,e0dbc5ab8f98cd75"/>
 <approved hash="4,1,9d6312fcc64bf8b3"/>
 <approved hash="4,1,7ad3ca7588adf9ea"/>
 <approved hash="4,1,30dc928854879162"/>
 <approved hash="4,1,f626860fc4573b2f"/>
+<approved hash="4,1,495e6e0eb3ff7863"/>
+<approved hash="4,1,f996ae7995f53e4f"/>
 <approved hash="4,1,06eb7fb07c5d629b"/>
 <approved hash="4,1,3a5204f6d7cd663e"/>
-<approved hash="4,1,f996ae7995f53e4f"/>
-<approved hash="4,1,ffb323a4a30e2e96"/>
 <approved hash="4,1,3ace88a5d9233cc7"/>
+<approved hash="4,1,f34cc1bc6d4128da"/>
+<approved hash="4,1,ffb323a4a30e2e96"/>
 <approved hash="4,1,d235b61964289d63"/>
 <approved hash="4,16,c67506b142b53310"/>
 <approved hash="4,16,e0dbc5ab8f98cd75"/>
 <approved hash="4,16,9d6312fcc64bf8b3"/>
-<approved hash="4,16,e79386ea39fcc5e2"/>
-<approved hash="4,16,30dc928854879162"/>
-<approved hash="4,16,6c3d901381081c97"/>
 <approved hash="4,16,f626860fc4573b2f"/>
+<approved hash="4,16,3dc323c8be57cd2c"/>
 <approved hash="4,16,06eb7fb07c5d629b"/>
 <approved hash="4,16,3a5204f6d7cd663e"/>
+<approved hash="4,16,8b18d6867a3e50cb"/>
 <approved hash="4,16,3ace88a5d9233cc7"/>
+<approved hash="4,16,f34cc1bc6d4128da"/>
 <approved hash="4,16,ffb323a4a30e2e96"/>
 <approved hash="4,16,d235b61964289d63"/>
 </errors>

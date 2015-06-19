@@ -220,12 +220,11 @@
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
 <package name="1X04_NO_SILK">
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="1" x="0" y="0" drill="1.4986" diameter="2.286" shape="square" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.4986" diameter="2.286" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.4986" diameter="2.286" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.4986" diameter="2.286" rot="R90"/>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
@@ -6154,7 +6153,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="JP1" library="esp" deviceset="I2C_STANDARD" device="" value="0"/>
+<part name="JP1" library="esp" deviceset="I2C_STANDARD" device="_NO_SILK" value="0"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="ESP"/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
