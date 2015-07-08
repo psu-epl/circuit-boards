@@ -144,11 +144,11 @@
 <pad name="GND" x="1.27" y="3.81" drill="1.4986" diameter="2.286" shape="square"/>
 <pad name="3" x="1.27" y="-1.27" drill="1.4986" diameter="2.286"/>
 <pad name="2" x="1.27" y="1.27" drill="1.4986" diameter="2.286"/>
-<pad name="1" x="1.27" y="-3.81" drill="1.4986" diameter="2.286"/>
-<pad name="4" x="-1.27" y="-3.81" drill="1.4986" diameter="2.286"/>
-<pad name="5" x="-1.27" y="-1.27" drill="1.4986" diameter="2.286"/>
-<pad name="6" x="-1.27" y="1.27" drill="1.4986" diameter="2.286"/>
-<pad name="7" x="-1.27" y="3.81" drill="1.4986" diameter="2.286"/>
+<pad name="4" x="1.27" y="-3.81" drill="1.4986" diameter="2.286"/>
+<pad name="5" x="-1.27" y="-3.81" drill="1.4986" diameter="2.286"/>
+<pad name="6" x="-1.27" y="-1.27" drill="1.4986" diameter="2.286"/>
+<pad name="7" x="-1.27" y="1.27" drill="1.4986" diameter="2.286"/>
+<pad name="8" x="-1.27" y="3.81" drill="1.4986" diameter="2.286"/>
 <wire x1="-2.54" y1="5.334" x2="2.54" y2="5.334" width="0.127" layer="51"/>
 <wire x1="2.54" y1="5.334" x2="2.54" y2="-5.334" width="0.127" layer="51"/>
 <wire x1="2.54" y1="-5.334" x2="-2.54" y2="-5.334" width="0.127" layer="51"/>
@@ -279,14 +279,14 @@ The ESP8266 WiFi Module is a self contained SOC with integrated TCP/IP protocol 
 <devices>
 <device name="" package="ESP8266-01">
 <connects>
-<connect gate="G$1" pin="CH_PD" pad="6"/>
+<connect gate="G$1" pin="CH_PD" pad="7"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GPIO0" pad="2"/>
-<connect gate="G$1" pin="GPIO2" pad="1"/>
-<connect gate="G$1" pin="URXD" pad="3"/>
-<connect gate="G$1" pin="UTXD" pad="7"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-<connect gate="G$1" pin="\RESET\" pad="5"/>
+<connect gate="G$1" pin="GPIO0" pad="3"/>
+<connect gate="G$1" pin="GPIO2" pad="2"/>
+<connect gate="G$1" pin="URXD" pad="4"/>
+<connect gate="G$1" pin="UTXD" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="\RESET\" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
