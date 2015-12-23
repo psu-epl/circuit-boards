@@ -9,6 +9,9 @@ have two PCB routers to accomplish this task:
 
 ### [AccruateCNC A406](A406)
 
+and a electroplating tank for plating Vias:
+
+### [LPKF MiniContac RS](Electroplating_Tank)
 
 # Make A Board Using Eagle
 
